@@ -91,7 +91,7 @@ aside{
 section{
 	flex-basis: 75%;
 	& img{
-		text-align: right;	
+		float: right;	
 		min-width: 85%, 100px;
 		max-width: 85%, 250px;
 	}
@@ -115,9 +115,6 @@ footer {
 .featured{
 	border-top: 2px solid var(--accent-color);
 	border-bottom: 2px solid var(--accent-color);
-	& img{
-		text-align: right;
-	}
 }
 
 .speaker{
