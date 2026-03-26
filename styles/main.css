@@ -6,8 +6,8 @@
 
 /* reset */
 * {
-	margin: 0;
-	padding: 3em;
+	margin: 3em;
+	padding: 0;
 	box-sizing: border-box;
 }
 
