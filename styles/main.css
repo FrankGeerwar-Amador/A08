@@ -26,7 +26,8 @@ a:hover, a:focus{
 	color: var(--accent-color);
 }
 h1, h2, h3, p, ul {
-	padding: .25em 0;
+	padding-top: .25em;
+	padding-bottom: .25em;
 }
 h1 {
 	font-size: 150%;
