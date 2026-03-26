@@ -56,7 +56,7 @@ header {
 	& h3 {
 		font-size: 130%;
 		font-style: italic;
-		padding-bottom: 0;
+		padding: 0;
 	}
 	& img {
 		float: left;
