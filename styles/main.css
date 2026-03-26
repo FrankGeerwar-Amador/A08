@@ -6,8 +6,8 @@
 
 /* reset */
 * {
-	margin: 0;
-	padding: 0;
+	margin: 1em;
+	padding: 1em;
 	box-sizing: border-box;
 }
 
@@ -62,10 +62,10 @@ header {
 
 /* the styles for the main content */
 main {
+	display: flex;
 	padding: 0 1em 1em;
 	& h1 {
-		border-top: 2px solid var(--accent-color);
-		border-bottom: 2px solid var(--accent-color);
+		
 	}
 	& blockquote {
 		font-style: italic;
@@ -74,6 +74,17 @@ main {
 	& img {
 		border: 4px double var(--accent-color);
 		border-radius: 10px;
+	}
+}
+
+aside{
+	flex-basis: 25%;
+}
+
+section{
+	flex-basis: 75%;
+	& img{
+		text-align: right;	
 	}
 }
 
@@ -90,4 +101,9 @@ footer {
 /* CSS class */
 .large {
 	font-size: 125%;
+}
+
+.featured{
+	border-top: 2px solid var(--accent-color);
+	border-bottom: 2px solid var(--accent-color);
 }
